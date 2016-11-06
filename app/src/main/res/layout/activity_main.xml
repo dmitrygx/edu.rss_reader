@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eeeeee"
+    android:stretchColumns="*"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow
+        android:padding="5dp"
+        android:layout_width="wrap_content">
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="Topics"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </TableRow>
+
+    <TableRow android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Politics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/button1" />
+    </TableRow>
+
+    <TableRow android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Business"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/button2" />
+    </TableRow>
+
+    <TableRow android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Sport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/button3" />
+    </TableRow>
+
+    <TableRow android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/button4" />
+    </TableRow>
+
+    <TableRow android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="MSDN news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/button5" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eeeeee"
+    android:stretchColumns="*"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow
+        android:padding="5dp"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="News reader - Politics"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+    </TableRow>
+
+    <TableRow android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="onClickRefresh"
+            android:id="@+id/button1" />
+
+    </TableRow>
+
+    <TableRow android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Go to link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="onClickGoToLink"
+            android:id="@+id/button2" />
+
+    </TableRow>
+
+    <TableRow android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView1" />
+
+    </TableRow>
+
+</TableLayout>
