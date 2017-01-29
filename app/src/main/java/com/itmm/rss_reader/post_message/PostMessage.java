@@ -19,8 +19,6 @@ public class PostMessage implements Comparable<PostMessage> {
     private String description;
     private Date date;
 
-
-
     public void setLink(String link) {
         try {
             this.link = new URL(link);
